@@ -1452,7 +1452,7 @@ div.toast.show {
   content: '|';
 }
 .bread-nav div#post-meta span.updated {
-  visibility: hidden;
+  visibility: visible;
 }
 .bread-nav:hover div#post-meta span.updated {
   visibility: visible;
