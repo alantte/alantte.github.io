@@ -277,7 +277,7 @@ blockquote {
   padding: 0.25rem 0.75rem;
   background: var(--block);
   border-left: 4px solid var(--text-meta);
-  border-radius: 4px 12px 12px 4px;
+  border-radius: 4px 10px 10px 4px;
   color: var(--text-p2);
 }
 :root {
@@ -591,7 +591,7 @@ li>code:not([class]) {
 .md-text .highlight,
 pre:not([class]):has(>code) {
   margin: var(--gap-p) 0;
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
   background: var(--block);
   line-height: 1.5;
@@ -685,7 +685,7 @@ pre:not([class]):has(>code) {
 }
 .md-text .gist .gist-file {
   border: 1px solid var(--block-border);
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
 }
 .md-text .gist .gist-data {
@@ -714,7 +714,7 @@ table:not([class]) {
 }
 .md-text pre >.hljs {
   padding: 1rem;
-  border-radius: 12px;
+  border-radius: 10px;
   line-height: 1.5;
   box-sizing: border-box;
 }
@@ -1039,7 +1039,7 @@ svg.loading {
   margin: 0;
   text-align: center;
   background: var(--block);
-  border-radius: 12px;
+  border-radius: 10px;
   position: relative;
   padding: 2rem;
 }
@@ -1348,7 +1348,7 @@ div.toast.show {
   margin-top: 4rem;
   padding: 1rem;
   background: var(--block);
-  border-radius: 12px;
+  border-radius: 10px;
   border: 1px solid var(--block-border);
 }
 .md-text .article-footer:empty {
@@ -1733,7 +1733,7 @@ div.toast.show {
   font-size: 1rem;
   font-weight: 700;
   background: var(--card);
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 8px 0px rgba(0,0,0,0.03);
   color: var(--text-p3);
@@ -1907,13 +1907,13 @@ article.md-text.content+.related-wrap {
   top: 60px;
 }
 .related-wrap#comments .cmt-body iframe {
-  border-radius: 12px;
+  border-radius: 10px;
   border: none;
   width: 100%;
 }
 .tag-plugin.about {
   background: var(--block);
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 2rem;
   position: relative;
 }
@@ -1984,7 +1984,7 @@ article.md-text.content+.related-wrap {
   }
 }
 .banner {
-  border-radius: 12px;
+  border-radius: 10px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -1994,7 +1994,7 @@ article.md-text.content+.related-wrap {
   height: 220px;
 }
 .banner.top {
-  border-radius: 16px;
+  border-radius: 12px;
 }
 @media screen and (max-width: 667px) {
   .banner {
@@ -2850,7 +2850,7 @@ details.folding {
   display: block;
   padding: 1rem;
   margin: 1rem 0;
-  border-radius: 12px;
+  border-radius: 10px;
   background: var(--theme-block);
   border: 1px solid var(--theme-border);
 }
@@ -3234,7 +3234,7 @@ details.folding[child=iframe] >div.body {
 }
 .tag-plugin.grid[bg]>.cell {
   padding: 1rem;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 .tag-plugin.grid[bg='box']>.cell {
   background: var(--block);
@@ -3375,8 +3375,8 @@ p>strong>span.tag-plugin.icon {
   border-left: 1px dashed var(--text-meta);
   border-right: 1px dashed var(--text-meta);
   border-bottom: 1px dashed var(--text-meta);
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   padding: 1rem;
   max-width: calc(95%);
 }
@@ -3671,7 +3671,7 @@ p>strong>span.tag-plugin.icon {
   cursor: pointer;
   width: 300px;
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 10px;
   transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
@@ -3805,7 +3805,7 @@ p>strong>span.tag-plugin.icon {
 }
 .tag-plugin.video video,
 .tag-plugin.video iframe {
-  border-radius: 12px;
+  border-radius: 10px;
   box-shadow: 0 12px 16px -4px rgba(0,0,0,0.2);
   z-index: 1;
   background: var(--block);
@@ -3828,7 +3828,7 @@ p>strong>span.tag-plugin.icon {
 .md-text .tag-plugin.note {
   position: relative;
   padding: 0.25rem 1rem;
-  border-radius: 12px;
+  border-radius: 10px;
   background: var(--theme-block);
   overflow: hidden;
   border: 1px solid var(--theme-border);
@@ -3905,7 +3905,7 @@ p>strong>span.tag-plugin.icon {
 }
 .md-text .tag-plugin.okr {
   position: relative;
-  border-radius: 12px;
+  border-radius: 10px;
   background: var(--theme-block);
   border: 1px solid var(--theme-border);
   overflow: hidden;
@@ -4490,7 +4490,7 @@ p>strong>span.tag-plugin.icon {
 }
 .tag-plugin.timeline .body {
   background: var(--card);
-  border-radius: 12px;
+  border-radius: 10px;
   border-top-left-radius: 2px;
   padding: 0.5rem 1rem;
   margin-top: 4px;
@@ -4680,7 +4680,7 @@ p>strong>span.tag-plugin.icon {
 details.toc {
   background: var(--block);
   border: 1px solid var(--block-border);
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
   color: var(--text-p2);
 }
@@ -4877,7 +4877,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   width: 100%;
   display: grid;
   margin: 8px 0;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 8px;
 }
 .nav-area .menu::-webkit-scrollbar {
@@ -5005,13 +5005,13 @@ details.toc[open] >div.body section .header+.doc_tree {
   font-size: 0.875rem;
   padding: 2rem;
   background: var(--alpha20);
-  border-radius: 12px;
+  border-radius: 10px;
 }
 .search-wrapper #search-result {
   max-height: 60vh;
   overflow: scroll;
   scrollbar-width: none;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 .search-wrapper #search-result::-webkit-scrollbar {
   height: 0;
@@ -5041,7 +5041,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   background: var(--alpha20);
   line-height: 1.2;
   padding: 0.75rem 1rem;
-  border-radius: 12px;
+  border-radius: 10px;
   transition: background 0.2s ease-out;
   -moz-transition: background 0.2s ease-out;
   -webkit-transition: background 0.2s ease-out;
@@ -5083,7 +5083,7 @@ details.toc[open] >div.body section .header+.doc_tree {
 .l_left {
   margin: 8px;
   height: calc(100vh - 16px);
-  border-radius: 16px;
+  border-radius: 12px;
   overflow: hidden;
   overflow: clip;
   overflow-clip-margin: 0.5px;
@@ -5093,7 +5093,7 @@ details.toc[open] >div.body section .header+.doc_tree {
 }
 .l_right {
   margin: 8px;
-  border-radius: 16px;
+  border-radius: 12px;
 }
 @media screen and (min-width: 2048px) {
   .l_left {
@@ -5201,7 +5201,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   padding: 0.75rem 0.5rem;
   color: var(--text-p2);
   background: var(--card);
-  border-radius: 12px;
+  border-radius: 10px;
   transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
@@ -5264,7 +5264,7 @@ details.toc[open] >div.body section .header+.doc_tree {
 .widget-wrapper.user-card .widget-body {
   text-align: center;
   background: var(--card);
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 1rem;
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
 }
@@ -5393,7 +5393,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   margin-top: 28px;
 }
 .widget-wrapper.markdown .widget-body {
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 4px 16px;
   background: var(--alpha50);
 }
@@ -5428,7 +5428,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   line-height: 1.2;
   background: var(--alpha20);
   padding: 10px 16px;
-  border-radius: 12px;
+  border-radius: 10px;
   display: block;
   border-left: 0;
   box-sizing: border-box;
@@ -5466,7 +5466,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   background: var(--alpha50);
 }
 .widget-wrapper.tagcloud .widget-body {
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 12px 16px;
   background: var(--alpha50);
 }
@@ -5513,7 +5513,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   left: calc(6px - var(--gap-padding));
 }
 .widget-wrapper.timeline .tag-plugin.timeline .timenode .body {
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 0.5rem 1rem;
 }
 .widget-wrapper.timeline .tag-plugin.timeline .timenode .body p,
@@ -5872,7 +5872,7 @@ details.toc[open] >div.body section .header+.doc_tree {
 @media screen and (max-width: 1180px) {
   .l_right .widgets .widget-wrapper {
     margin-top: var(--gap-margin);
-    border-radius: 12px;
+    border-radius: 10px;
   }
 }
 @media screen and (min-width: 1180px) {
@@ -6253,7 +6253,7 @@ details.toc[open] >div.body section .header+.doc_tree {
 .post-list .post-card {
   display: block;
   margin: 1rem 0;
-  border-radius: 12px;
+  border-radius: 10px;
   background: var(--card);
   transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -6754,7 +6754,7 @@ table a:not([class]):has(img):hover {
   background: none;
 }
 .md-text .aplayer {
-  border-radius: 12px;
+  border-radius: 10px;
 }
 img.lazy {
   transition: all 0.38s ease-out;
@@ -6859,7 +6859,7 @@ a[data-fancybox] {
   cursor: pointer;
   margin-right: 4px;
   margin-top: 4px;
-  border-radius: calc(12px - 4px);
+  border-radius: calc(10px - 4px);
 }
 .highlight:hover .code:before {
   visibility: hidden;
