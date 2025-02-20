@@ -519,28 +519,6 @@
 
 <!-- optional -->
 
-  <script type="module">
-  import { init } from 'https://gcore.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline.js';
-
-  const el = document.getElementById('waline_container');
-  util.viewportLazyload(el, load_waline, true);
-
-  function load_waline(){
-    if (!el) return;
-
-    utils.css('https://gcore.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline.css');
-    utils.css('https://gcore.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline-meta.css');
-
-    const path = el.getAttribute('comment_id') ?? decodeURI(window.location.pathname);
-    const waline = init(Object.assign({"js":"https://gcore.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline.js","css":"https://gcore.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline.css","meta_css":"https://gcore.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline-meta.css","serverURL":"https://comment.alantte.fun","commentCount":true,"pageview":true,"locale":{"placeholder":"无需登录即可留言。若您填写邮箱，可以收到回复邮件通知。"},"emoji":["https://unpkg.com/@waline/emojis@1.1.0/weibo"]}, {
-      el: '#waline_container',
-      path: path,
-      
-    }));
-  }
-</script>
-
-
 
 
 <script defer>
