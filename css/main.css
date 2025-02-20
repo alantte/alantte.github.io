@@ -1634,10 +1634,8 @@ div.toast.show {
   z-index: 8;
   top: 0;
   background: var(--site-bg);
-  position: sticky;
-  position: -webkit-sticky;
-  margin-bottom: 1px;
-  margin-top: -8px;
+  position: inherit;
+  background: none;
 }
 .navbar:after {
   content: '';
@@ -1674,7 +1672,7 @@ div.toast.show {
 }
 .navbar nav a {
   padding: 2px 0.75rem;
-  margin: 10px 0.25rem 8px 0.25rem;
+  margin: 10px 0.25rem 8px 0;
   line-height: 2;
   color: var(--text-p3);
   border-radius: 4px;
@@ -6506,6 +6504,7 @@ body>.sitebg {
   right: 0;
   bottom: 0;
   background-size: cover;
+  background-image: url("https://www.helloimg.com/i/2025/01/27/6796a601c7674.png");
 }
 body>.sitebg .siteblur {
   width: 100%;
